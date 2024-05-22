@@ -1,0 +1,2 @@
+Um dos meus primeiros projetos quando comecei a mexer com League of Legends. Parei de mexer com League of Legends faz muito tempo e vou deixar este repositório aberto para o pessoal que estiver começando usar como exemplo.
+E um projetinho bem simples, ele serve apenas para alterar algumas coisas visuais do perfil do usuário dentro do client do league.
