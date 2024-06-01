@@ -1,10 +1,6 @@
 const Client = require("../default/Client");
 
-module.exports = class Chat extends Client {
-
-  constructor() {
-    super()
-  };
+class Chat extends Client {
 
   icon(value = 1) {
     this._instance.put('/lol-chat/v1/me/', {
@@ -27,3 +23,5 @@ module.exports = class Chat extends Client {
   }
 
 }
+
+module.exports = new Chat();

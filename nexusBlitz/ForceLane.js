@@ -1,9 +1,6 @@
 const Client = require("../default/Client");
 
-module.exports = class ForceLane extends Client {
-  constructor() {
-    super()
-  }
+class ForceLane extends Client {
 
   jungle() {
     this._instance.patch('/lol-champ-select/v1/session/my-selection', {
@@ -20,3 +17,5 @@ module.exports = class ForceLane extends Client {
   }
 
 }
+
+module.exports = new ForceLane();

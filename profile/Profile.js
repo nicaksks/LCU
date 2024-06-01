@@ -1,10 +1,6 @@
 const Client = require("../default/Client");
 
-module.exports = class Profile extends Client {
-
-  constructor() {
-    super()
-  };
+class Profile extends Client {
 
   changeRank(value = 1) {
     this._instance.put('/lol-regalia/v2/current-summoner/regalia', {
@@ -79,3 +75,5 @@ module.exports = class Profile extends Client {
   }
 
 }
+
+module.exports = new Profile();
